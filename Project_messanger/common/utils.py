@@ -31,10 +31,3 @@ def send_message(sock, message):
     js_message = json.dump(message)
     encoded_message = js_message.encode(ENCODING)
     sock.send(encoded_message)
-
-
-
-
-
-
-
